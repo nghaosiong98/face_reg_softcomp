@@ -8,7 +8,7 @@ n = 300;
 % change str to s01,s02,s03,.... for saving  upto how many subjects you want to save for saving in respective folders for 
 % imwrite in line 88
 
-str = 's01';
+str = 's02';
 
 % make directory
 dest = string(strcat('photos\',str));

@@ -1,4 +1,5 @@
 function [J,face,bbox] = cropface(img)
+    % This function crop face from an image.
     [bbox, ~, ~] = mtcnn.detectFaces(img, 'UseGPU', true);
     if ~isempty(bbox)
         for i=1:size(bbox,1)
